@@ -36,3 +36,9 @@ input {
 img {
 	max-width: 300px;
 }
+
+.faveBtn {
+	background-color: red;
+	color: white;
+	padding: 32px, 16px;
+}
