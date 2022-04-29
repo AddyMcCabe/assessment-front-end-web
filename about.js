@@ -12,4 +12,4 @@ let catPic = document.getElementById('catPic');
 let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
-catPic.addEventListener('mouseover', alert('Thank you for petting Mr Nice!') )
+// catPic.addEventListener('mouseover',  )
