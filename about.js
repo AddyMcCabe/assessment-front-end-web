@@ -8,8 +8,12 @@ function handleSubmit(evt) {
 	alert('form submitted');
 }
 
+function handleMouseOver() {
+	alert('thank you for petting Mr Nice')
+}
+
 let catPic = document.getElementById('catPic');
 let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
-// catPic.addEventListener('mouseover',  )
+catPic.addEventListener('mouseover', handleMouseOver);
