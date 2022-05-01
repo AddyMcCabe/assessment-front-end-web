@@ -37,8 +37,19 @@ img {
 	max-width: 300px;
 }
 
+#addy {
+	max-height: 300px;
+}
+
 .favorite-buttons {
 	background-color: red;
 	color: white;
+	border-radius: 5px;
 	
+}
+ 
+.flex-item {
+	display: inline-block;
+	padding: 20px;
+
 }
